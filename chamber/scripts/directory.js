@@ -27,6 +27,8 @@ function showList(){
     display.classList.remove("grid");
 }
 
+
+
 // Create Cards
 
 const cards = document.querySelector('#cards');
@@ -37,11 +39,44 @@ const cards = document.querySelector('#cards');
 //     .then(data => console.log(data))
 //     .catch(error => console.error('Error fetching JSON: ', error));
 
+// async function getMembersData() {
+//     const response = await fetch('data/members.json');
+//     const data = await response.json();
+//     console.table(data.members);  
+// }
+
+// async function getMembersData() {
+//     try {
+//         const response = await fetch('data/members.json');
+//         const data = await response.json();
+//         console.table(data.members);
+//         return data.members;
+//     } catch (error) {
+//         console.error('Error fetching JSON:', error);
+//     }
+//     console.log("Fetched members:", members); // Log the data to verify
+// }
+
 async function getMembersData() {
-    const response = await fetch('data/members.json');
-    const data = await response.json();
-    console.table(data.members);  
+    try {
+        const response = await fetch('data/members.json');
+        const data = await response.json();
+        console.log("Fetched data:", data); // Log the raw fetched data
+        console.table(data.members);       // Log the `members` array specifically
+        return data.members;               // Return the members array
+    } catch (error) {
+        console.error('Error fetching JSON:', error);
+        return []; // Return an empty array to prevent further errors
+    }
 }
+
+getMembersData().then((members) => {
+    if (members && members.length > 0) {
+        displayMembers(members); // Pass the array of members to the display function
+    } else {
+        console.error("No members data to display");
+    }
+});
 
 getMembersData();
 
@@ -77,7 +112,6 @@ const displayMembers = (members) => {
         cards.appendChild(card);
     });
 }
-    
 
 
 // ---------- FOOTER ----------

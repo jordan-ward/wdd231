@@ -1,58 +1,60 @@
-[
-    {
-        "name": "Albertsons",
-        "address": "4700 N Eagle Rd Boise, ID 83713",
-        "phoneNumber": "(208) 939-5145",
-        "url": "https://www.albertsons.com/",
-        "image": "images/albertsons.webp",
-        "membershipLevel": "3"
-    },
-    {
-        "name": "Blue Cross of Idaho",
-        "address": "3000 E. Pine Avenue Meridian, ID 83642",
-        "phoneNumber": "(800) 365-2345",
-        "url": "https://www.bcidaho.com/",
-        "image": "images/blueCross.webp",
-        "membershipLevel": "3"
-    },
-    {
-        "name": "Treasure Valley YMCA",
-        "address": "1050 W State St, Boise, ID 83702, USA",
-        "phoneNumber": "(208) 869-0619",
-        "url": "https://ymcatvidaho.org/",
-        "image": "images/ymca.webp",
-        "membershipLevel": "1"
-    },
-    {
-        "name": "Fred Meyer",
-        "address": "1850 E Fairview Ave",
-        "phoneNumber": "(800) 576-4377",
-        "url": "https://www.fredmeyer.com/",
-        "image": "images/fredMeyer.webp",
-        "membershipLevel": "2"
-    },
-    {
-        "name": "Winco Foods",
-        "address": "8200 W Fairview Ave, Boise, ID 83704",
-        "phoneNumber": "(208) 377-9840",
-        "url": "https://www.wincofoods.com/",
-        "image": "images/winco.webp",
-        "membershipLevel": "1"
-    },
-    {
-        "name": "Idaho Power Co.",
-        "address": "1221 W. Idaho St. Boise, ID 83702",
-        "phoneNumber": "208-388-2323",
-        "url": "https://www.idahopower.com/",
-        "image": "images/idahoPower.webp",
-        "membershipLevel": "3"
-    },
-    {
-        "name": "Costco",
-        "address": "2051 S COLE RD Boise, ID 83709-2815",
-        "phoneNumber": "(208) 321-8700",
-        "url": "https://www.costco.com/",
-        "image": "images/costco.webp",
-        "membershipLevel": "2"
-    }
-]
+{
+    "members": [
+        {
+            "name": "Albertsons",
+            "address": "4700 N Eagle Rd Boise, ID 83713",
+            "phoneNumber": "(208) 939-5145",
+            "url": "https://www.albertsons.com/",
+            "image": "images/albertsons.webp",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "Blue Cross of Idaho",
+            "address": "3000 E. Pine Avenue Meridian, ID 83642",
+            "phoneNumber": "(800) 365-2345",
+            "url": "https://www.bcidaho.com/",
+            "image": "images/blueCross.webp",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "Treasure Valley YMCA",
+            "address": "1050 W State St, Boise, ID 83702, USA",
+            "phoneNumber": "(208) 869-0619",
+            "url": "https://ymcatvidaho.org/",
+            "image": "images/ymca.webp",
+            "membershipLevel": "1"
+        },
+        {
+            "name": "Fred Meyer",
+            "address": "1850 E Fairview Ave",
+            "phoneNumber": "(800) 576-4377",
+            "url": "https://www.fredmeyer.com/",
+            "image": "images/fredMeyer.webp",
+            "membershipLevel": "2"
+        },
+        {
+            "name": "Winco Foods",
+            "address": "8200 W Fairview Ave, Boise, ID 83704",
+            "phoneNumber": "(208) 377-9840",
+            "url": "https://www.wincofoods.com/",
+            "image": "images/winco.webp",
+            "membershipLevel": "1"
+        },
+        {
+            "name": "Idaho Power Co.",
+            "address": "1221 W. Idaho St. Boise, ID 83702",
+            "phoneNumber": "208-388-2323",
+            "url": "https://www.idahopower.com/",
+            "image": "images/idahoPower.webp",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "Costco",
+            "address": "2051 S COLE RD Boise, ID 83709-2815",
+            "phoneNumber": "(208) 321-8700",
+            "url": "https://www.costco.com/",
+            "image": "images/costco.webp",
+            "membershipLevel": "2"
+        }
+    ]
+}
