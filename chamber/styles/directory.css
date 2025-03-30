@@ -48,7 +48,7 @@ header img {
 nav {
     background: rgb(71, 98, 79, 60%);
     margin: 0 auto;
-    max-width: auto;
+    max-width: 1200px;
     max-height: 100%;
     padding: 5px;
 }
