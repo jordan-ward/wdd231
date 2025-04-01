@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Thank You Page</title>
+
+    <meta name="facebook:title" content="Chamber of Commerce Thank You Page">
+    <meta name="facebook:description" content="">
+    <meta name="facebook:image" content="">
+    <meta name="facebook:url" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <meta name="description" content="Join Page">
+    <meta name="author" content="Jordan Ward">
+
+    <script src="scripts/join.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css">
+ </head>
+ <body>
+   <!-- Small photo and name using span tag -->
+   <header>
+      <img src="images/boise.webp" alt="Boise Logo" width="200"><span> City of Commerce </span>
+  </header>
+
+  <!-- Four links: HOME, CHAMBER, GITHUB PROFILE, LINKEDIN -->
+  <nav id="menu">
+      <ul class="navigation">
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href=".html" id="chamber">Chamber</a></li>
+          <li><a href="https://github.com/jordan-ward" id="github">Github Profile</a></li>
+          <li><a href="https://www.linkedin.com/" id="linkedin">LinkedIn</a></li>
+      </ul>
+  </nav>
+  <main>
+    <h2 id="thanks">Thank you for subscribing!</h2>
+    <div id="results">
+
+    </div>
+  </main>
+
+  <footer>
+   <!-- First paragraph contains copyrite symbol, and current year written in Javascript. Your name, and state/country -->
+   <p>
+       ©️<span id="currentyear"></span> | Jordan Ward | Idaho 
+   </p>
+
+   <!-- The Second has an id of "lastModified" will be populated with Javascript. -->
+   <p>
+       Last Modified: <span id="lastmodified"></span> 
+   </p>   
+   </footer>
+ </body>
+ </html>

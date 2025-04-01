@@ -1,0 +1,36 @@
+@media screen and (min-width: 800px) {
+    /* ---------- HEAD ---------- */
+
+    /* FONT */
+    /* <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> */
+
+    /* COLOR SCHEME */
+    /* Background: hex: EFECCA rgb: 239, 236, 202
+    Accent1: hex: 47624F rgb: rgb 71, 98, 79
+    Accent2: hex: 1B2437 rgb: 27, 36, 55
+    Hover: hex: 058ED9 rgb: 5, 142, 217 */
+
+    .page{
+        min-width: 800px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+
+    /* ---------- BODY ---------- */
+
+    /* HEADER */
+
+    /* NAV */
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* MAIN */
+    
+    /* FOOTER */
+}

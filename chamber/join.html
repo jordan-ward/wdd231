@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Join Page</title>
+
+    <meta name="facebook:title" content="Chamber of Commerce Join Page">
+    <meta name="facebook:description" content="">
+    <meta name="facebook:image" content="">
+    <meta name="facebook:url" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <meta name="description" content="Join Page">
+    <meta name="author" content="Jordan Ward">
+
+    <script src="scripts/join.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css">
+ </head>
+ <body>
+   <!-- Small photo and name using span tag -->
+   <header>
+      <img src="images/boise.webp" alt="Boise Logo" width="200"><span> City of Commerce </span>
+  </header>
+
+  <!-- Four links: HOME, CHAMBER, GITHUB PROFILE, LINKEDIN -->
+  <nav id="menu">
+      <ul class="navigation">
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href=".html" id="chamber">Chamber</a></li>
+          <li><a href="https://github.com/jordan-ward" id="github">Github Profile</a></li>
+          <li><a href="https://www.linkedin.com/" id="linkedin">LinkedIn</a></li>
+      </ul>
+  </nav>
+  <main>
+    <form method="get" action="thankyou.html" autocomplete="on" class="wf1">
+        <fieldset>
+            <legend>Your Information</legend>
+                <label>First Name* <input type="text" name="fname" title="" autocomplete="given-name" required></label>
+                <label>Last Name* <input type="text" name="lname" title="" autocomplete="family-name" required></label>
+                <label>Email Address* <input type="email" name="email" title="" autocomplete="email" placeholder="you@gmail.com" required></label>
+                <label>Phone Number* <input type="tel" name="phone" title="" autocomplete="tel" placeholder="1235551234" required></label>
+                <label>Business/Organization Name* <input type="text" name="oname" title="" autocomplete="organization" required></label>
+                <label>Organizational Title <input type="text" name="" title="" autocomplete="organization-title"></label>
+                <label>Business/Organization Description* <input type="text" name="" autocomplete="" required></label>
+            <legend>Membership Level</legend>
+                <label><input type="radio" name="level" value="Non Profit"> Non Profit </label>
+                <label><input type="radio" name="level" value="Bronze"> Bronze </label>
+                <label><input type="radio" name="level" value="Silver"> Silver </label>
+                <label><input type="radio" name="level" value="Gold"> Gold </label>
+ 
+            <label><input type="hidden" id="timestamp" name="timestamp"></label>
+        </fieldset>
+        <button type="submit" onclick="populateTimestamp()" > Join Now </button>
+    </form>
+    <section id="cards">
+        <div id="nonProfit">
+            <h3>Non Profit Membership Level </h3>
+            <button class="button open-button" onclick="openModal('modalNonProfit')"> Learn More </button>
+            <dialog class="modal" id="modalNonProfit">
+                <h3>Non Profit Membership Level</h3>
+                <p>
+                    Designed for organizations with limited budgets. Offers basic access to essential features for free.
+                </p>
+                <button class="close-button" onclick="closeModal('modalNonProfit')">❌</button>
+            </dialog>
+        </div>
+        <div id="bronze">
+            <h3>Bronze Membership Level </h3>
+            <button class="button open-button" onclick="openModal('modalBronze')"> Learn More </button>
+            <dialog class="modal" id="modalBronze">
+                <h3>Bronze Membership Level</h3>
+                <p>
+                    A low cost option that provides basic tools with some support options.
+                </p>
+                <button class="close-button" onclick="closeModal('modalBronze')">❌</button>
+            </dialog>
+        </div>
+        <div id="silver">
+            <h3>Silver Membership Level </h3>
+            <button class="button open-button"  onclick="openModal('modalSilver')"> Learn More </button>
+            <dialog class="modal" id="modalSilver">
+                <h3>Silver Membership Level</h3>
+                <p>
+                    Includes additional tools and is perfect for a mid level organization looking to enhance their experience.
+                </p>
+                <button class="close-button" onclick="closeModal('modalSilver')">❌</button>
+            </dialog>
+        </div>
+        <div id="gold">
+            <h3>Gold Membership Level </h3>
+            <button class="button open-button" onclick="openModal('modalGold')"> Learn More </button>
+            <dialog class="modal" id="modalGold">
+                <h3>Gold Membership Level</h3>
+                <p>
+                    Premium lever with exclusive features and support. Optimal for larger organizations with higher budgets.
+                </p>
+                <button class="close-button" onclick="closeModal('modalGold')">❌</button>
+            </dialog>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+   <!-- First paragraph contains copyrite symbol, and current year written in Javascript. Your name, and state/country -->
+   <p>
+       ©️<span id="currentyear"></span> | Jordan Ward | Idaho 
+   </p>
+
+   <!-- The Second has an id of "lastModified" will be populated with Javascript. -->
+   <p>
+       Last Modified: <span id="lastmodified"></span> 
+   </p>   
+   </footer>
+ </body>
+ </html>
