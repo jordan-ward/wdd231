@@ -1,0 +1,52 @@
+{
+    "features": [
+        {
+            "name": "The Greenbelt",
+            "address": "150 North Capitol Blvd. Boise, ID 83702",
+            "description": "A 25 mile long pathway beside the Boise River. Perfect for walking or biking. ",
+            "image": "images/greenbelt.webp"
+        },
+        {
+            "name": "The Old Idaho Penitentiary",
+            "address": "2445 Old Penitentiary Rd, Boise, ID 83712",
+            "description": "A historic prison that now operates as a museum with fascinating exhibits.",
+            "image": "images/pen.webp"
+        },
+        {
+            "name": "Freak Alley",
+            "address": "210 N 9th St, Boise, ID 83702",
+            "description": "A vibrant outdoor gallery of street art in downtown Boise.",
+            "image": "images/alley.webp"
+        },
+        {
+            "name": "Bogus Basin Mountain",
+            "address": "2600 N Bogus Basin Road, Boise, ID 83702",
+            "description": "Offers skiing, snowboarding, and tubing in the winter as well as hiking and mountain biking in the summer.",
+            "image": "images/bogus.webp"
+        },
+        {
+            "name": "The Boise Depot",
+            "address": "2603 W Eastover Terrace, Boise, ID 83706",
+            "description": "A restored spanish style train station that is a popular spot for events and photography.",
+            "image": "images/depot.webp"
+        },
+        {
+            "name": "Table Rock",
+            "address": "3199 E Table Rock Rd, Boise, ID 83712",
+            "description": "A prominent plateau that overlooks Boise. Can be hiked to or driven to.",
+            "image": "images/tr.webp"
+        },
+        {
+            "name": "The World Center for Birds of Prey",
+            "address": "5668 W Flying Hawk Ln, Boise, ID 83709",
+            "description": "A conservation and education center designed for all sorts of birds of prey.",
+            "image": "images/bop.webp"
+        },
+        {
+            "name": "The Idaho Botanical Garden",
+            "address": "2355 N Old Penitentiary Rd, Boise, ID 83712",
+            "description": "A 50 acre garden that features a diversity of plant life.",
+            "image": "images/garden.webp"
+        }
+    ]
+}
