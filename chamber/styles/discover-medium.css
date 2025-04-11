@@ -21,6 +21,18 @@
         flex-wrap: wrap;
     }
     /* MAIN */
-    
+
+    #places section {
+        display: grid;
+        grid-template-areas: 
+        "name"
+        "photograph description"
+        "photograph address";
+    }
+
+    #places section img {
+        grid-area: photograph;
+        display: inline-block;
+    }
     /* FOOTER */
 }

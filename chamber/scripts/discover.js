@@ -49,6 +49,7 @@ const displayFeatures = (features) => {
       let address = document.createElement('address')
       let description = document.createElement('p')
       let image = document.createElement('img')
+      let button = document.createElement('a')
       
       name.textContent = `${features.name}`;
       address.textContent = `${features.address}`;
@@ -60,10 +61,13 @@ const displayFeatures = (features) => {
       image.setAttribute('width', '300');
       image.setAttribute('height', '200');
 
+      button.textContent = 'Learn More';
+
       card.appendChild(name);
       card.appendChild(image);
       card.appendChild(address);
       card.appendChild(description);
+      card.appendChild(button);
       
       cards.appendChild(card);
   });
