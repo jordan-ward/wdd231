@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bark Buddies Home Page</title>
+
+    <meta name="facebook:title" content="Bark Buddies Home Page">
+    <meta name="facebook:description" content="">
+    <meta name="facebook:image" content="">
+    <meta name="facebook:url" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta name="description" content="Home Page">
+    <meta name="author" content="Jordan Ward">
+
+    <script src="scripts/index.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Bark Buddies Logo" width="200"><span> Bark Buddies </span>
+    </header>
+
+    <nav id="menu">
+        <ul class="navigation">
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="services.html" id="services">Services</a></li>
+            <li><a href="contact.html" id="contact">Contact Us!</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1 id="tagline">Your dog's home away from home!</h1>
+
+        <div class="hero">
+            <img src="images/hero.webp" alt="Bark Buddies Hero Image">
+        </div>
+
+        <h2 id="heading">Reviews</h2>
+
+        <div id="reviews"></div>
+
+    </main>
+
+    <footer>
+        <!-- First paragraph contains copyrite symbol, and current year written in Javascript. Your name, and state/country -->
+        <p>
+            ©️<span id="currentyear"></span> | Jordan Ward | Idaho 
+        </p>
+
+        <div id="weather">
+            <h3>Current weather at Bark Buddies</h3>
+            <button class="button open-button" onclick="openModal('modalNonProfit')"> Current Weather </button>
+            <dialog class="modal" id="modalNonProfit">
+                <h2>Current Weather</h2>
+                <h2 id="city"></h2>
+                <img id="graphic" src="" alt="">
+                <p id="description"></p>
+                <p id="temperature"></p>
+                <button class="close-button" onclick="closeModal('modalNonProfit')">❌</button>
+            </dialog>
+        </div>
+     
+        <!-- The Second has an id of "lastModified" will be populated with Javascript. -->
+        <p>
+            Last Modified: <span id="lastmodified"></span> 
+        </p>   
+        </footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+    "reviews": [
+      {
+        "title": "Tail-Wagging Fun!",
+        "content": "Luna had such a fantastic stay at Bark Buddies! She’s usually a bit shy, but the staff made her feel right at home. The personalized care and regular updates made me confident she was in great hands. She can’t wait to visit again!",
+        "image": "images/review01.webp"
+      },
+      {
+        "title": "Like a Vacation for My Pup!",
+        "content": "Charlie came home from Bark Buddies completely happy and exhausted (in the best way!). The variety of activities kept him busy, and he made a bunch of doggy friends. Thank you for giving him the best getaway while I was away!",
+        "image": "images/review02.webp"
+      },
+      {
+        "title": "Above and Beyond!",
+        "content": "I can’t say enough good things about Bark Buddies! My senior dog, Rosie, needs a little extra care, and the team went above and beyond to ensure she was comfortable. It’s clear they truly care about every dog that walks through their doors.",
+        "image": "images/review03.webp"
+      },
+      {
+        "title": "Home Away from Home!",
+        "content": "Max was treated like royalty at Bark Buddies. From the cozy accommodations to the playtime sessions, every detail was perfect. I could tell he bonded with the staff—it felt like leaving him with family.",
+        "image": "images/review04.webp"
+      },
+      {
+        "title": "Paws-itive Experience!",
+        "content": "Bark Buddies is my go-to place for my dog, Coco. They keep her entertained and well-cared-for, and the webcam access is a huge bonus. It’s wonderful knowing she’s safe and having fun while I’m away. Highly recommend!",
+        "image": "images/review05.webp"
+      },
+      {
+        "title": "Stress-Free for Dogs and Owners!",
+        "content": "Milo usually gets anxious when I leave, but Bark Buddies worked their magic! When I picked him up, he was calm, happy, and clearly well-cared-for. It was such a relief to know he was in good hands. Thank you, Bark Buddies!",
+        "image": "images/review06.webp"
+      }
+    ]
+  }

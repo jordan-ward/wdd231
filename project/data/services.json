@@ -1,0 +1,52 @@
+{
+    "services": [
+      {
+        "name": "Overnight Stays",
+        "description": "Safe and comfortable lodging for dogs while their owners are away."
+      },
+      {
+        "name": "Daycare",
+        "description": "Supervised play and socialization during the day, keeping dogs active and engaged."
+      },
+      {
+        "name": "Training Services",
+        "description": "Basic obedience, behavioral, or advanced training sessions for dogs."
+      },
+      {
+        "name": "Grooming",
+        "description": "Bathing, brushing, nail trimming, and other grooming services."
+      },
+      {
+        "name": "Special Diet Accommodation",
+        "description": "Providing meals tailored to dietary needs or preferences."
+      },
+      {
+        "name": "Medical Care",
+        "description": "Administering medications, monitoring health, or emergency care."
+      },
+      {
+        "name": "Exercise & Playtime",
+        "description": "Activities like walks, agility play, or supervised group interactions."
+      },
+      {
+        "name": "Private Suites or Kennels",
+        "description": "Options for extra space or privacy for dogs who prefer quieter environments."
+      },
+      {
+        "name": "Webcam Access",
+        "description": "Allowing owners to check in on their dogs remotely for peace of mind."
+      },
+      {
+        "name": "Transportation Services",
+        "description": "Pick-up and drop-off options for convenience."
+      },
+      {
+        "name": "Puppy Care",
+        "description": "Specialized care for younger dogs with extra needs like frequent feeding or play."
+      },
+      {
+        "name": "Enrichment Activities",
+        "description": "Puzzle games, toys, or one-on-one play sessions for mental stimulation."
+      }
+    ]
+  }
