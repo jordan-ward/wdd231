@@ -2,51 +2,63 @@
     "services": [
       {
         "name": "Overnight Stays",
-        "description": "Safe and comfortable lodging for dogs while their owners are away."
+        "description": "Safe and comfortable lodging for dogs while their owners are away.",
+        "image": "images/overnight.webp"
       },
       {
         "name": "Daycare",
-        "description": "Supervised play and socialization during the day, keeping dogs active and engaged."
+        "description": "Supervised play and socialization during the day, keeping dogs active and engaged.",
+        "image": "images/daycare.webp"
       },
       {
         "name": "Training Services",
-        "description": "Basic obedience, behavioral, or advanced training sessions for dogs."
+        "description": "Basic obedience, behavioral, or advanced training sessions for dogs.",
+        "image": "images/training.webp"
       },
       {
         "name": "Grooming",
-        "description": "Bathing, brushing, nail trimming, and other grooming services."
+        "description": "Bathing, brushing, nail trimming, and other grooming services.",
+        "image": "images/grooming.webp"
       },
       {
         "name": "Special Diet Accommodation",
-        "description": "Providing meals tailored to dietary needs or preferences."
+        "description": "Providing meals tailored to dietary needs or preferences.",
+        "image": "images/diet.webp"
       },
       {
         "name": "Medical Care",
-        "description": "Administering medications, monitoring health, or emergency care."
+        "description": "Administering medications, monitoring health, or emergency care.",
+        "image": "images/medical.webp"
       },
       {
         "name": "Exercise & Playtime",
-        "description": "Activities like walks, agility play, or supervised group interactions."
+        "description": "Activities like walks, agility play, or supervised group interactions.",
+        "image": "images/exercise.webp"
       },
       {
         "name": "Private Suites or Kennels",
-        "description": "Options for extra space or privacy for dogs who prefer quieter environments."
+        "description": "Options for extra space or privacy for dogs who prefer quieter environments.",
+        "image": "images/suites.webp"
       },
       {
         "name": "Webcam Access",
-        "description": "Allowing owners to check in on their dogs remotely for peace of mind."
+        "description": "Allowing owners to check in on their dogs remotely for peace of mind.",
+        "image": "images/webcam.webp"
       },
       {
         "name": "Transportation Services",
-        "description": "Pick-up and drop-off options for convenience."
+        "description": "Pick-up and drop-off options for convenience.",
+        "image": "images/transportation.webp"
       },
       {
         "name": "Puppy Care",
-        "description": "Specialized care for younger dogs with extra needs like frequent feeding or play."
+        "description": "Specialized care for younger dogs with extra needs like frequent feeding or play.",
+        "image": "images/puppy.webp"
       },
       {
         "name": "Enrichment Activities",
-        "description": "Puzzle games, toys, or one-on-one play sessions for mental stimulation."
+        "description": "Puzzle games, toys, or one-on-one play sessions for mental stimulation.",
+        "image": "images/enrichment.webp"
       }
     ]
   }
