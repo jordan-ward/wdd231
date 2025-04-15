@@ -1,0 +1,202 @@
+/* Color Palette */
+:root {
+    --soft-blue: rgb(142, 198, 230); /* Backgrounds */
+    --warm-yellow: rgb(249, 231, 159); /* Review Backgrounds */
+    --fresh-green: rgb(169, 223, 191); /* Header & Footer */
+    --neutral-gray: rgb(242, 244, 244); /* Nav */
+    --bright-orange: rgb(243, 156, 18); /* Hover Accent for buttons */
+  }
+  
+  .page {
+      min-width: 320px;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0.5rem;
+  }
+  
+  /* BODY */
+  
+  body {
+      font-family: "Roboto", serif;
+      background-color: rgb(142, 198, 230, 0.3);
+  }
+  
+  /* NAV */
+  nav {
+      background: var(--neutral-gray);
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 100%;
+      padding: 5px;
+  }
+  
+  .navigation a:hover {
+      border: 2px solid var(--bright-orange);
+      box-shadow: 4px 4px 6px gray;
+      color: var(--bright-orange);
+  }
+  
+  #menu::before {
+      content: "☰";
+      color: black;
+      font-size: 50px;
+      font-weight: 300;
+  }
+  
+  .navigation.show li {
+      display: block;
+  }
+  
+  #menu.show::before{
+      content: "X";
+      color: black;
+      font-size: 50px;
+      font-weight: 300;
+  }
+  
+  .navigation {
+      list-style: none;
+      margin: 0 auto;
+      max-width: 100%;
+  }
+  
+  .navigation li {
+      display: none;
+  }
+  
+  .navigation a {
+      display: block;
+      padding: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 30px;
+      font-weight: 400;
+      transition: 0.5s;
+  }
+  
+  /* HEADER */
+  header {
+      display: flex;
+      padding: 2rem;
+      font-weight: 400;
+      background-color: rgb(169, 223, 191, 0.7);
+      align-items: center;
+      justify-content: space-evenly;
+      color: black;
+      font-size: 60px;
+      text-shadow: 4px 4px 6px gray;
+      text-align: center;
+      
+  }
+  
+  header img {
+      border: 2px solid black;
+      box-shadow: 4px 4px 8px black;
+      border-radius: 15px;
+  }
+  
+  #subtitle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      text-decoration: underline;
+      font-weight: 500;
+  }
+  
+  #services section {
+      margin: 1rem 8px;
+      border: 2px solid black;
+      box-shadow: 4px 4px 8px black;
+      padding: 0.5rem;
+      background-color: rgb(249, 231, 159, 0.7);
+      border-radius: 8px;
+      overflow: hidden;
+      width: auto;
+  
+      display: grid;
+      grid-template-areas: 
+      "title"
+      "photograph"
+      "content";
+  
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #services section h2 {
+      grid-area: title;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.4rem;
+  }
+  
+  #services section img {
+      grid-area: photograph;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      box-shadow: 2px 2px 4px black;
+      margin: auto;
+      border-radius: 10px;
+  }
+  
+  #services section p {
+      grid-area: content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.4rem;
+  }
+
+  #buttonLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+    font-size: 35px;
+  }
+
+  #buttonLink button:hover {
+    background-color: var(--soft-blue);
+  }
+
+    #book {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bright-orange);
+        border: 2px solid black;
+        box-shadow: 4px 4px 8px black;
+        border-radius: 15px;
+    }
+
+  /* FOOTER */
+  footer {
+      display: flex;
+      padding: 10px;
+      font-weight: 350;
+      background-color: rgb(169, 223, 191, 0.7);
+      align-items: center;
+      justify-content: space-around;
+      color: black;
+      font-size: 20px;
+      text-shadow: 2px 2px 4px white;
+      text-align: center;
+  }
+  
+  footer #weather {
+      padding: 10px;
+      margin: auto;
+  }
+  
+  footer #weather .button {
+      background-color: var(--bright-orange);
+      border: 2px solid black;
+      box-shadow: 4px 4px 8px black;
+      border-radius: 15px;
+  }
