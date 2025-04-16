@@ -1,0 +1,29 @@
+/* Color Palette */
+:root {
+    --soft-blue: rgb(142, 198, 230); /* Backgrounds */
+    --warm-yellow: rgb(249, 231, 159); /* Review Backgrounds */
+    --fresh-green: rgb(169, 223, 191); /* Header & Footer */
+    --neutral-gray: rgb(242, 244, 244); /* Nav */
+    --bright-orange: rgb(243, 156, 18); /* Hover Accent for buttons */
+  }
+  
+  .page {
+    min-width: 801px;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.wf1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.wfi button {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
