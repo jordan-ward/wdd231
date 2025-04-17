@@ -28,7 +28,7 @@ async function getFeaturesData() {
       return data.features;               // Return the features array
   } catch (error) {
       console.error('Error fetching JSON:', error);
-      return []; // Return an empty array to prevent further errors
+      return []; 
   }
 }
 
