@@ -20,18 +20,18 @@ async function getServicesData() {
   try {
       const response = await fetch('data/services.json');
       const data = await response.json();
-      console.log("Fetched data:", data); // Log the raw fetched data
-      console.table(data.services);       // Log the `features` array specifically
-      return data.services;               // Return the features array
+      console.log("Fetched data:", data);
+      console.table(data.services);
+      return data.services;
   } catch (error) {
       console.error('Error fetching JSON:', error);
-      return []; // Return an empty array to prevent further errors
+      return [];
   }
 }
 
 getServicesData().then((services) => {
   if (services && services.length > 0) {
-      displayServices(services); // Pass the array of features to the display function
+      displayServices(services);
   } else {
       console.error("No services data to display");
   }
@@ -106,8 +106,8 @@ async function apiFetch() {
       const response = await fetch(myURL);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // testing only
-        displayResults(data); // uncomment when ready
+        console.log(data);
+        displayResults(data);
       } else {
           throw Error(await response.text());
       }
